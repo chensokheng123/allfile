@@ -1,0 +1,39 @@
+body {
+    box-sizing: border-box;
+    height: 9000px;
+
+}
+
+.blue {
+    background: blue;
+    padding: 10px;
+}
+
+.red {
+    background: red;
+    padding: 10px;
+}
+
+.gameplay {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.life {
+    border: 5px solid black;
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.life div {
+    background: red;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.control {
+    text-align: center;
+    margin: 20px;
+}

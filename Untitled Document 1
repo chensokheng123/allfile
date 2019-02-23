@@ -1,0 +1,38 @@
+LibraNMS is the open source
+
+PHP/MySql based
+
+
+---------------------------------------------------------------
+Features
+
+CDP, LLDP, FDP
+
+SNMP Scan
+
+Even OSPF, ARP and BGP
+
+
+
+
+__________________________________________________________
+	 		Server
+sudo systemctl stop nginx.service
+sudo systemctl start nginx.service
+sudo systemctl enable nginx.service
+sudo systemctl restart nginx.service
+
+
+_________________________________________________________
+			Data Base
+
+sudo systemctl stop mariadb.service
+sudo systemctl start mariadb.service
+sudo systemctl enable mariadb.service
+sudo systemctl restart mariadb.service
+___________________________________________________________
+
+
+
+
+

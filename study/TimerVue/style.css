@@ -1,0 +1,50 @@
+#app{
+    text-align: center;
+    margin: 10% auto;
+}
+#app h1,span{
+    font-size: 90px;
+    -webkit-text-stroke: 5px #00C482;
+    letter-spacing: 5px;
+}
+.input{
+    margin-top:-50px;
+}
+input{
+    border:none;
+    text-align: center;
+    width: 80px;
+    margin: 0px 20px;
+    font-size: 50px;
+    -webkit-text-stroke: 5px black;
+    border-bottom: 5px solid black;
+}
+input::placeholder{
+    margin-left: 0px;
+}
+.control{
+    margin: 40px 0px;
+}
+
+
+
+.control button{
+    padding:5px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background: green;
+    border: none;
+    color:#fff;
+    letter-spacing: 3px;
+    -webkit-text-stroke: 1px  #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+.bttn{
+    background: red;
+}
+button:hover{
+    background: rgb(133, 160, 235);
+    color: #333;
+}
+

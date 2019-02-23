@@ -1,0 +1,74 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <div id="app">
+    <p>{{result}}</p>
+    <p>{{ fullname }}</p>
+    <p>hello</p>
+
+    <div @click='red=!red' :class="addClass">
+
+
+    </div>
+  -->
+    <!-- v-show use to show the the element if the condition is true -->
+    <!-- if it not true then it just hidden that elment by display:none -->
+    <!-- <p v-show='red'>hello</p>
+    <div v-for='todo in todo'>
+      <div v-for='(val,key) in todo'>
+        {{ key }}- {{ val}}
+      </div>
+    </div>
+
+    <div class="gameplay">
+      <img :src="src" width='100%' alt="">
+    </div>
+    <div class=" life">
+      <div :style="{width: health + '%'}"></div>
+    </div>
+    <div class="control">
+      <button @click='punch'>punch</button>
+      <button @click='restart'>Restart</button>
+    </div>
+
+
+  </div>
+  
+</body>
+
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <ol>
+      
+        <todo-item>{{ message }}</todo-item>
+        <todo-item></todo-item>
+      
+    </ol>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src='index.js'></script>
+</body>
+</html>

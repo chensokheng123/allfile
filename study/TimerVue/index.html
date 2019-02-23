@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TimerVue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div id="app">
+       <h1><span style='color:#00C482'>T</span>imer</h1>
+       <div class="input">
+            <input type="number" placeholder="0" v-model='hour'  v-if='!check' v-on:keyup.enter="start">
+            <input type="number" placeholder="0" v-model='minute'v-if='!check' v-on:keyup.enter="start">
+            <input type="number" placeholder="0" v-model='second'v-if='!check' v-on:keyup.enter="start">
+       </div>
+
+       <div class="display" v-if='check'>
+            <span>{{hour}}:{{minute}}:{{second}}</span>
+       </div>
+
+       <div class="control">
+           <button  v-if='!check'@click='start'>Start</button>
+           <button  v-if='check && resume' @click='pause'>Pause</button>
+           <button  v-if='!resume && check' @click='Resume'>Resume</button>
+           <button style="background: red;" v-show='check'@click='reset'>Cancel</button>
+       </div>
+       
+
+    
+
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+   <script src="index.js"></script>
+</body>
+
+</html>

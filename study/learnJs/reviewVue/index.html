@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- TODO -->
+    <!-- 1. Show the dynamic value change by letting the user input usig prompt -->
+    <!-- 2. Bind the img and link and also the style to the element by using prompt as well -->
+
+
+
+
+    <div id="app">
+        <!-- <input type="text" v-model='name' v-on:keyup.enter='checkName'>
+        <p v-if='isJonh'>Hello jonh</p>
+
+        <p v-show='check'>Hello world</p>
+
+
+            
+
+
+        <p v-else>Who are you?</p>
+        <p v-if='items > 10'>InStock</p>
+        <p v-else>out of stock</p> -->
+        <!-- <ul>
+            <li v-for='(list,index) in lists'>{{index}}</li>
+        </ul> -->
+
+
+        <ul>
+            <li v-for='list in lists'>{{ list.id}} {{ list.action }}</li>
+        </ul>
+
+        <p>{{lists[0].action}}</p>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
